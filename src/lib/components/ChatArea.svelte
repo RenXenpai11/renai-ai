@@ -74,6 +74,9 @@
   min-height: 0;
   overflow-y: auto;
   padding: 28px 20px 18px;
+  -webkit-overflow-scrolling: touch;
+  overscroll-behavior-y: contain;
+  touch-action: pan-y;
 }
 
 .landing {
